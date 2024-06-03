@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img{
+    cursor: pointer;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* index.css */
+body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .navbar.dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  /* Otros estilos necesarios para el modo oscuro */
+  
